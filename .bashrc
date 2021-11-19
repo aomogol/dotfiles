@@ -231,28 +231,21 @@ ex ()
   fi
 }
 
-
-
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
-
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
-
 # neofetch
 
-export JAVA_HOME='/usr/lib/jvm/java-8-openjdk'
-export PATH=$JAVA_HOME/bin:$PATH
-
-export FLUTTER_HOME=/opt/flutter
-export PATH=${PATH}:${FLUTTER_HOME}/bin
-export CHROME_EXECUTABLE=/opt/google/chrome/chrome
-
-export ANDROID_SDK_ROOT='/opt/android-sdk'
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin/
-export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
-
+# export JAVA_HOME='/usr/lib/jvm/java-8-openjdk'
+# export PATH=$JAVA_HOME/bin:$PATH
+# export FLUTTER_HOME=/opt/flutter
+# export PATH=${PATH}:${FLUTTER_HOME}/bin
+# export CHROME_EXECUTABLE=/opt/google/chrome/chrome
+# export ANDROID_SDK_ROOT='/opt/android-sdk'
+# export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
+# export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin/
+# export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+# export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
 
 source /etc/profile
 
